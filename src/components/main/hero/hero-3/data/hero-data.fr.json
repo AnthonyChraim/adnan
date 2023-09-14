@@ -1,0 +1,33 @@
+{
+  "Hero3": {
+    "title": {
+      "firstHeader": "CENTRE MÉDICAL PROFESSIONNEL",
+      "secondHeader": "Nous prenons soin de votre santé",
+      "description": {
+        "text": "Vous n'avez pas d'assurance ? ",
+        "link": "Cliquez ici !",
+        "href": "https://www.google.com/"
+      }
+    },
+    "card": {
+      "header": "Centre médical OPP",
+      "description": "Notre centre médical propose une large gamme de services de soins de santé. Nous utilisons uniquement des technologies avancées pour maintenir votre famille en bonne santé et heureuse, sans surprises inattendues. Nous apprécions énormément votre confiance. Nos patients nous choisissent et choisissent nos services parce qu'ils savent que nous sommes les meilleurs.",
+      "button": "À propos de nous",
+      "buttonLink": "https://www.google.com/"
+    },
+    "appointment": {
+      "days": {
+        "Lun - Ven": " 9h00 - 22h00",
+        "Sam - Dim": " 9h00 - 22h00"
+      },
+      "button": {
+        "title": "Prendre un rendez-vous",
+        "link": "https://www.google.com/"
+      }
+    },
+    "images": {
+      "imageLeft": "/assets/img/hero-img-2.jpg",
+      "imageRight": "/assets/img/hero-img-1.jpg"
+    }
+  }
+}

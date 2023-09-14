@@ -1,0 +1,313 @@
+{
+  "PropertiesDefaultSold": {
+    "title": "Recently Sold",
+    "titleRight": "View Properties for Sale",
+    "properties": {
+      "property1": {
+        "address": {
+          "line1": "Chomedey, Laval"
+        },
+        "images": {
+          "img1": "/assets/img/SoldProperties/sold-property-1.jpg"
+        },
+        "description": {
+          "title": "Property Description",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Quick Summary",
+          "quickSummary": {
+            "Property ID": "12345",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Property Type": "House",
+            "Status": "Sale",
+            "Area": "340m",
+            "Beds": "4",
+            "Baths": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Amenities",
+          "amenities": {
+            "a1": "Balcony",
+            "a2": "Outdoor Kitchen",
+            "a3": "Cable TV",
+            "a4": "Deck",
+            "a5": "Tennis Court",
+            "a6": "Internet",
+            "a7": "Parking",
+            "a8": "Sun Room",
+            "a9": "Concrete Flooring"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Floor Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Location",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "rent | $ 12.000",
+        "priceSingle": "$12,000/month",
+        "seeMore": "Click here to view",
+        "info": {
+          "Area": "340m",
+          "Beds": "2",
+          "Baths": "4",
+          "Garages": "1"
+        }
+      },
+      "property2": {
+        "address": {
+          "line1": "Sainte-Rose, Laval"
+        },
+        "images": {
+          "img1": "/assets/img/SoldProperties/sold-property-2.png"
+        },
+        "description": {
+          "title": "Property Description",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Quick Summary",
+          "quickSummary": {
+            "Property ID": "12345",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Property Type": "House",
+            "Status": "Sale",
+            "Area": "340m",
+            "Beds": "4",
+            "Baths": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Amenities",
+          "amenities": {
+            "a1": "Balcony",
+            "a2": "Outdoor Kitchen",
+            "a3": "Cable TV",
+            "a4": "Deck",
+            "a5": "Tennis Court",
+            "a6": "Internet",
+            "a7": "Parking",
+            "a8": "Sun Room",
+            "a9": "Concrete Flooring"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Floor Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Location",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "rent | $ 12.000",
+        "priceSingle": "$13,000/month",
+        "seeMore": "Click here to view",
+        "info": {
+          "Area": "340m",
+          "Beds": "2",
+          "Baths": "4",
+          "Garages": "1"
+        }
+      },
+      "property3": {
+        "address": {
+          "line1": "Ahuntsic, Montreal"
+        },
+        "images": {
+          "img1": "/assets/img/SoldProperties/sold-property-3.png"
+        },
+        "description": {
+          "title": "Property Description",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Quick Summary",
+          "quickSummary": {
+            "Property ID": "12346",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Property Type": "House",
+            "Status": "Sale",
+            "Area": "340m",
+            "Beds": "4",
+            "Baths": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Amenities",
+          "amenities": {
+            "a1": "Balcony",
+            "a2": "Outdoor Kitchen",
+            "a3": "Cable TV",
+            "a4": "Deck",
+            "a5": "Tennis Court",
+            "a6": "Internet",
+            "a7": "Parking",
+            "a8": "Sun Room",
+            "a9": "Concrete Flooring"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Floor Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Location",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "rent | $ 12.000",
+        "priceSingle": "$14,000/month",
+        "seeMore": "Click here to view",
+        "info": {
+          "Area": "340m",
+          "Beds": "2",
+          "Baths": "4",
+          "Garages": "1"
+        }
+      },
+      "property4": {
+        "address": {
+          "line1": "RDP, Montreal"
+        },
+        "images": {
+          "img1": "/assets/img/SoldProperties/sold-property-4.png"
+        },
+        "description": {
+          "title": "Property Description",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Quick Summary",
+          "quickSummary": {
+            "Property ID": "12346",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Property Type": "House",
+            "Status": "Sale",
+            "Area": "340m",
+            "Beds": "4",
+            "Baths": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Amenities",
+          "amenities": {
+            "a1": "Balcony",
+            "a2": "Outdoor Kitchen",
+            "a3": "Cable TV",
+            "a4": "Deck",
+            "a5": "Tennis Court",
+            "a6": "Internet",
+            "a7": "Parking",
+            "a8": "Sun Room",
+            "a9": "Concrete Flooring"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Floor Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Location",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "rent | $ 12.000",
+        "priceSingle": "$14,000/month",
+        "seeMore": "Click here to view",
+        "info": {
+          "Area": "340m",
+          "Beds": "2",
+          "Baths": "4",
+          "Garages": "1"
+        }
+      }
+    },
+    "grid": {
+      "title": "Our Amazing Properties",
+      "description": "Grid Properties",
+      "path": {
+        "Home": "/#",
+        "Properties Grid": "#"
+      },
+
+      "sort": {
+        "All": "0",
+        "New to Old": "1",
+        "For Rent": "2",
+        "For Sale": "3"
+      }
+    },
+    "single": {
+      "path": {
+        "Home": "/#",
+        "Properties": "/properties"
+      }
+    }
+  }
+}

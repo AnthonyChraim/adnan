@@ -1,0 +1,50 @@
+{
+  "ErrorRealtor": {
+    "property": {
+      "header": {
+        "title": " Propriété non trouvée ",
+        "description": "Cette propriété n'est plus disponible. Parcourez les propriétés actives ici !",
+        "button": "Propriétés",
+        "link": "/properties"
+      },
+      "profil": {
+        "name": "ADNAN AL-DEEK",
+        "description": "Lorsque vous collaborez avec moi, vous n'engagez pas seulement un courtier, mais vous vous associez à un professionnel chevronné qui s'investit véritablement dans la réalisation de vos aspirations immobilières. Je vous invite à me contacter pour discuter de vos projets ; ensemble, nous pouvons faire de vos objectifs une réalité",
+        "image": "/assets/img/About/about-adnan-al-deek-realtor.png",
+        "contact": {
+          "Phone": "(514) 638-8773",
+          "Mobile": "(514) 638-8773",
+          "Email": "adnan.aldeek@remax-quebec.com"
+        },
+        "socials": {
+          "bi-facebook": "https://www.facebook.com/adnan.aldeek",
+          "bi bi-instagram": "https://www.instagram.com/adnan_aldeek/",
+          "bi bi-linkedin": "https://www.linkedin.com/in/adnan-al-deek-6359161aa/"
+        }
+      }
+    },
+    "page": {
+      "header": {
+        "title": "Page Not Found",
+        "description": "Cette page n'est pas disponible. Consultez notre page d'accueil",
+        "button": "Accueil",
+        "link": "/"
+      },
+      "profil": {
+        "name": "ADNAN AL-DEEK",
+        "description": "Lorsque vous collaborez avec moi, vous n'engagez pas seulement un courtier, mais vous vous associez à un professionnel chevronné qui s'investit véritablement dans la réalisation de vos aspirations immobilières. Je vous invite à me contacter pour discuter de vos projets ; ensemble, nous pouvons faire de vos objectifs une réalité",
+        "image": "/assets/img/About/about-adnan-al-deek-realtor.png",
+        "contact": {
+          "Phone": "(514) 638-8773",
+          "Mobile": "(514) 638-8773",
+          "Email": "adnan.aldeek@remax-quebec.com"
+        },
+        "socials": {
+          "bi-facebook": "https://www.facebook.com/adnan.aldeek",
+          "bi bi-instagram": "https://www.instagram.com/adnan_aldeek/",
+          "bi bi-linkedin": "https://www.linkedin.com/in/adnan-al-deek-6359161aa/"
+        }
+      }
+    }
+  }
+}

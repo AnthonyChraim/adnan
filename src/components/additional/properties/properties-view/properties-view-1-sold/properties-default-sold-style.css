@@ -1,0 +1,388 @@
+/*======================================
+//--//-->   Property-Components
+======================================*/
+
+#section-property-view1-sold {
+  --property-background-color: var(--main-fill-color);
+  --property-header-text-color: var(--main-accent-color);
+  --property-breadcrumbs-text-color: var(--main-accent-color);
+  --property-breadcrumbs-hover-text-color: var(--main-dark-accent-color);
+  --property-swiper-inactive-color: var(--main-ddd-selector-color);
+  --property-swiper-active-color: var(--main-accent-color);
+  --property-main-hyperlink-color: var(--main-accent-color);
+  --property-main-hover-hyperlink-color: var(--main-fill-color);
+  --property-main-card-text-color: var(--main-fill-color);
+  --property-main-card-footer-color: var(--main-dark-accent-color);
+  --property-main-card-footer-header-color: var(--main-fill-color);
+  --property-main-card-footer-description-color: var(--main-fill-color);
+  --property-title-color: var(--main-titles-color);
+
+  background-color: var(--main-background-color);
+}
+
+.title-box-crumb {
+  font-size: 14px;
+}
+
+@media (max-width: 450px) {
+  .title-box-crumb {
+    font-size: 9px;
+  }
+}
+#section-property-view1-sold .title-a {
+  color: var(--property-title-color);
+}
+
+#section-property-view1-sold .title-link a {
+  color: var(--property-breadcrumbs-text-color);
+}
+
+#section-property-view1-sold .title-link a:hover {
+  color: var(--property-breadcrumbs-hover-text-color) !important;
+}
+
+/*------/ Nav Pills  /------*/
+
+.carousel-pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#section-property-view1-sold .section-t8 {
+  padding-top: 8rem;
+}
+
+#section-property-view1-sold .title-wrap {
+  padding-bottom: 4rem;
+}
+
+#section-property-view1-sold .title-a {
+  text-decoration: none;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+#section-property-view1-sold .title-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1.2rem;
+}
+
+.link-a {
+  text-decoration: none;
+  color: var(--property-main-hyperlink-color);
+}
+
+@media (min-width: 768px) {
+  .link-a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .link-a {
+    font-size: 1rem;
+  }
+}
+
+.link-a:hover {
+  color: var(--property-main-hover-hyperlink-color);
+  text-decoration: none;
+}
+
+.link-a span {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .link-a span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .link-a span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-box-a-sold {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card-box-a-sold span {
+  line-height: 0;
+}
+
+.card-box-a-sold {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-box-a-sold .img-a {
+  transition: 0.8s all ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .card-box-a-sold .price-a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-a-sold .price-a {
+    font-size: 1rem;
+  }
+}
+
+.card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card-shadow {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-shadow:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* keep like that, can even remove */
+  background: linear-gradient(to bottom, #00000000 0%, #00000033 27%, #000000a6 90%);
+}
+
+/* @media (min-width: 768px) {
+  .card-box-a-sold:hover .card-overlay-a-content {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
+  .card-box-a-sold:hover .card-overlay-a-content {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 992px) {
+  .card-box-a-sold:hover .card-overlay-a-content {
+    bottom: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-box-a-sold:hover .card-body-a {
+    padding-bottom: 1rem;
+  }
+} */
+
+/* @media (max-width: 767px) {
+  .card-box-a-sold .card-overlay-a-content {
+    bottom: 65px;
+  }
+
+  .card-box-a-sold .card-body-a {
+    padding-bottom: 1rem;
+  }
+} */
+
+.card-overlay-a-content {
+  transition: all 0.5s ease-in;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .card-overlay-a-content {
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-overlay-a-content {
+    bottom: 0px;
+  }
+}
+
+.card-header-a {
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-header-a .card-title-a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-header-a .card-title-a {
+    font-size: 2rem;
+  }
+}
+
+.card-header-a .card-title-a p {
+  color: var(--property-main-card-text-color);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .card-header-a .card-title-a p {
+    margin-bottom: 2rem;
+  }
+}
+
+.card-body-a {
+  z-index: 2;
+  transition: all 0.5s ease-in;
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+.card-body-a .price-box {
+  padding-bottom: 0.5rem;
+}
+
+.price-a {
+  /* This is the component's CSS for the Property Card's RENT price Border color. */
+  color: var(--property-main-card-text-color);
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--property-main-card-text-color);
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.card-footer-a {
+  /* This is the component's CSS for the Property Card's bottom footer BG. */
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: var(--property-main-card-footer-color);
+}
+
+.card-info {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+}
+
+.card-info .card-info-title {
+  /* This is the component's CSS for the Property Card's bottom footer text color. */
+  font-size: 1rem;
+  color: var(--property-main-card-footer-header-color);
+}
+
+@media (min-width: 768px) {
+  .card-info .card-info-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-info .card-info-title {
+    font-size: 1rem;
+  }
+}
+
+.card-info li span {
+  color: var(--property-main-card-footer-description-color);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .card-info li span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-info li span {
+    font-size: 1rem;
+  }
+}
+
+/* .card_box {
+  position: relative;
+} */
+
+.card_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box span.fr::before {
+  content: "VENDU";
+  font-size: 18px;
+  font-weight: 1600;
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-image: linear-gradient(to right, #222831, #0275d8, #222831);
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  box-shadow: 0 5px 10px #00000080;
+}
+
+.card_box span.en::before {
+  content: "SOLD";
+  font-size: 18px;
+  font-weight: 1600;
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-image: linear-gradient(to right, #222831, #0275d8, #222831);
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px #00000080;
+}
+
+.margin-sold {
+  margin-left: 0.1rem;
+  margin-top: 0.7rem;
+}
+
+.card_box span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #222831;
+  background-image: linear-gradient(to right, #222831, #0275d8, #222831);
+}

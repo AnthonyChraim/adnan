@@ -1,0 +1,43 @@
+{
+  "FAQ2": {
+    "left": {
+      "header": {
+        "l1": "Les transactions immobilières:",
+        "l2": "Les réponses à vos questions."
+      },
+      "description": "Démêler les complexités de la vente et de l'achat, une question à la fois.",
+      "cards": {
+        "phone": {
+          "title": "Encore des questions?",
+          "text": "Appelez moi",
+          "link": "tel:5146388773"
+        },
+        "chat": {
+          "title": "Encore des questions?",
+          "text": "Écrivez moi",
+          "link": "mailto:adnan.aldeek@remax-quebec.com"
+        }
+      }
+    },
+    "right": {
+      "questions": {
+        "q1": {
+          "question": "Quels sont les avantages de faire appel à un courtier immobilier?",
+          "answer": "Les courtiers immobiliers ont une connaissance approfondie du marché local, ils peuvent vous guider tout au long du processus, négocier en votre nom, vous faire économiser du temps et de l'argent, et fournir des informations précieuses pour prendre des décisions éclairées."
+        },
+        "q2": {
+          "question": "Quels sont les frais de courtage à la vente ou à l'achat d'une propriété?",
+          "answer": "Pour l’achat c’est gratuit et pour la vente nous offrons un systeme flexible de retribution pour accomoder chaque vendeur selon ses besoins."
+        },
+        "q3": {
+          "question": "Quelles sont les erreurs courantes à éviter lors de l'achat d'une maison?",
+          "answer": "Évitez de surestimer votre budget, de négliger l'inspection, de ne pas tenir compte des coûts de possession, et de ne pas prendre en compte vos besoins futurs."
+        },
+        "q4": {
+          "question": "Quelles sont les erreurs courantes à éviter lors de la vente d'une maison?",
+          "answer": "Lors de la vente d'une maison, évitez de surévaluer son prix, de négliger la mise en scène et les réparations nécessaires, et de sous-estimer l'importance du marketing. Écoutez les commentaires des acheteurs, planifiez votre prochaine résidence, et assurez-vous de respecter tous les aspects légaux. Travailler avec un courtier immobilier professionnel peut vous aider à éviter ces erreurs."
+        }
+      }
+    }
+  }
+}

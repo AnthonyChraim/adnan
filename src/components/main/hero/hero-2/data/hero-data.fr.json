@@ -1,0 +1,17 @@
+{
+  "Hero2": {
+    "title": "Un courtier immobilier sur lequel",
+    "title2": "vous pouvez toujours compter",
+    "description1": "Adnan Al-Deek, Courtier immobilier de confiance à ",
+    "descriptionLaval": "Laval",
+    "description2": "",
+    "description3": "Dédié à vous guider à travers chaque étape",
+    "imgBackground": "/assets/img/Hero/buy-a-house-in-laval.jpg",
+    "imgRight": "/assets/img/Hero/adnan-al-deek-realtor-laval.png",
+    "button": {
+      "id": "hero-2-btn",
+      "link": "#a-propos-adnan-al-deek",
+      "content": "En savoir plus"
+    }
+  }
+}

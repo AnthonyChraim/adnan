@@ -1,0 +1,42 @@
+{
+  "Contact2": {
+    "header": "Get In Touch",
+    "description": "Starting your housing journey or have questions?",
+    "description2": "Drop us a message; we're here to help guide your real estate ambitions.",
+    "emailjs": {
+      "serviceId": "service_pa3nxqn",
+      "templateId": "template_e553shy",
+      "publicKey": "KHeIWFbqbPAm_-1Cf"
+    },
+    "form": {
+      "invalid": "Please fill out this field",
+      "invalidEmail": "Please enter a valid email address",
+      "success": "Your message has been sent. I will contact you shortly!",
+      "firstName": {
+        "title": "First Name",
+        "invalidFeedback": "Please, provide a valid first name!"
+      },
+      "lastName": {
+        "title": "Last Name",
+        "placeholder": "",
+        "invalidFeedback": "Please, provide a valid last name!"
+      },
+      "email": {
+        "title": "Email Address",
+        "placeholder": "",
+        "invalidFeedback": "Please, provide a valid email address!"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "placeholder": "(123) 456-7890",
+        "invalidFeedback": "Please, provide a valid phone number!"
+      },
+      "message": {
+        "title": "Message",
+        "placeholder": "",
+        "invalidFeedback": "Please, enter your message!"
+      }
+    },
+    "btn": "Send a Request"
+  }
+}

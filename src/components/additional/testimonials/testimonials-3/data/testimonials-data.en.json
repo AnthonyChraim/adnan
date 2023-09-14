@@ -1,0 +1,25 @@
+{
+  "Testimonials3": {
+    "title": {
+      "l1": "Hearing from",
+      "l2": "Our Satisfied",
+      "l3": "Homeowners"
+    },
+    "cards": {
+      "card1": {
+        "icon": "bx bxs-quote-left",
+        "text": "Je tiens à remercier Adnan pour l'aide qu'il m'a apportée dans la recherche de ma première propriété. Sa disponibilité, son professionnalisme et sa gentillesse méritent une mention spéciale. Il a répondu à toutes mes questions et m'a aidé à prendre les bonnes décisions. Je le recommande en toute confiance!",
+        "img": "/assets/img/Testimonials/Testimonial3.png",
+        "name": "Morgane Macé",
+        "position": "Saint-Hubert"
+      },
+      "card2": {
+        "icon": "bx bxs-quote-left",
+        "text": "Adnan was very helpful throughout the process of finding my condo. As a person with a disability, I had a lot of requirements that needed to be met as much as possible when choosing the ideal condo. He never gave up in his efforts to provide me with the best possible service. I am truly grateful for his excellent service, and yes, I highly recommend him.",
+        "img": "/assets/img/Testimonials/Testimonial1.png",
+        "name": "Vivian",
+        "position": "Montreal"
+      }
+    }
+  }
+}

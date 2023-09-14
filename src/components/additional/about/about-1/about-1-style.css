@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+  # About-1
+  --------------------------------------------------------------*/
+
+.about-1 {
+  --about-background-color: var(--main-background-color);
+  --about-header-color: var(--main-accent-color);
+  --about-paragraph-color: var(--main-general-color);
+  --about-bulletpoint-color: var(--main-accent-color);
+  --about-bulletpoint-text-color: var(--main-sub-text-color);
+  --about-title-color: var(--main-titles-color);
+}
+
+.about-1 {
+  /* This is the component's CSS for the About section default BG. */
+  background: var(--about-background-color);
+}
+
+.about-1 h2 {
+  /* This is the component's CSS for the main header text color. */
+  color: var(--about-title-color);
+}
+
+.about-1 p {
+  /* This is the component's CSS for the main paragraph text color. */
+  color: var(--about-paragraph-color);
+}
+
+.about-1-img {
+  /* height: 600px; */
+  display: flex;
+  justify-content: right;
+  padding-left: 150px;
+}
+
+.about-1 .content h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.about-1 .content ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.about-1 .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+  color: var(--about-title-color);
+}
+
+.about-1 .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: var(--about-bulletpoint-color);
+}
+
+.about-1 .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-1-title {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  .about-1-title {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .about-1-img {
+    /* height: 600px; */
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-1-img {
+    /* height: 600px; */
+    padding-left: 25px;
+  }
+}
+
+.about-1-center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+  .about-1-img {
+    padding-left: 0px;
+  }
+}

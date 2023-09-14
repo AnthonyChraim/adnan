@@ -1,0 +1,56 @@
+{
+  "Services2": {
+    "header": "Ressources essentielles pour propriétaires et acheteurs",
+    "description": "Pour vendre en toute simplicité ou acheter en toute connaissance, accédez à tous les outils dont vous avez besoin en un seul endroit.",
+    "services": {
+      "service1": {
+        "delay": "100",
+        "name": "Guide du vendeur",
+        "img": "assets/img/Tools/Services-1.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek guide du vendeur",
+        "bulletpoints": {
+          "bp1": "Combien peut coûter la vente de votre maison",
+          "bp2": "Établir le prix de vente de votre maison",
+          "bp3": "Vendre votre maison avec un agent immobilier"
+        },
+        "btn": {
+          "text": "Consulter le guide du vendeur",
+          "link": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/vendre-maison.html"
+        }
+      },
+      "service2": {
+        "delay": "300",
+        "name": "Guide de l'acheteur",
+        "img": "assets/img/Tools/Services-4.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek guide de l'acheteur",
+        "bulletpoints": {
+          "bp1": "Obtenir une préapprobation hypothécaire",
+          "bp2": "Trouver votre maison",
+          "bp3": "Payer pour votre maison"
+        },
+        "btn": {
+          "text": "Consulter le guide de l'acheteur",
+          "link": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/acheter-maison.html"
+        }
+      },
+      "service3": {
+        "delay": "500",
+        "name": "Calculatrice hypothécaire",
+        "img": "assets/img/Tools/Services-5.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek calculatrice hypothécaire",
+        "bulletpoints": {
+          "bp1": "Estimation fiable des paiements",
+          "bp2": "Aperçu des épargnes potentielles",
+          "bp3": "Déterminer votre éligibilité"
+        },
+        "btn": {
+          "text": "Estimez votre hypothèque",
+          "link": "https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MC-CH-fra.aspx"
+        }
+      }
+    }
+  }
+}

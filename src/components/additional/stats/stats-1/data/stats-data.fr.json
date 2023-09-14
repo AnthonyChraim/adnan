@@ -1,0 +1,31 @@
+{
+  "Stats1": {
+    "header": "Votre propriété, notre priorité",
+    "cards": {
+      "card1": {
+        "icon": "bx bx-home",
+        "title": "Vente de propriétés",
+        "description": "Profitez de notre connaissance approfondie du marché et de nos stratégies de pointe pour vendre votre propriété de manière efficace et rentable. Je m'assure que la transaction se déroule sans problème et en toute simplicité."
+      },
+      "card2": {
+        "icon": "bx bx-cart-add",
+        "title": "Assistance à l'achat",
+        "description": "Que vous soyez acheteur d'une première maison ou que vous souhaitiez agrandir votre parc immobilier, je vous aide à trouver des propriétés qui correspondent à vos aspirations et à votre budget. Faisons de la maison de vos rêves une réalité."
+      },
+      "card3": {
+        "icon": "bx bx-phone-call",
+        "title": "Toujours à votre service",
+        "description": "Mon engagement va au-delà des transactions. Avec un soutien exceptionnel à la clientèle, je suis là pour vous aider, vous conseiller et m'assurer que vous êtes informé à chaque étape du processus."
+      },
+      "card4": {
+        "icon": "bx bx-map",
+        "title": "Expertise locale",
+        "description": "En tant que figure établie dans la communauté, j'offre un accès inégalé à diverses annonces et opportunités. Faites l'expérience d'un service immobilier fondé sur la confiance, l'intégrité et des liens étroits avec la communauté."
+      }
+    },
+    "btn": {
+      "text": "Demander un prix",
+      "link": "https://www.google.com/"
+    }
+  }
+}

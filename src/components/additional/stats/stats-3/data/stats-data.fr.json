@@ -1,0 +1,10 @@
+{
+  "Stats3": {
+    "Item1": "Clients satisfaits",
+    "Item2": "Volume",
+    "Item3": "Moy. Durée de vente",
+    "Item4": "Ratio prix demandé/prix vendu",
+    "day": "jour",
+    "asterix": "*Ces valeurs peuvent varier"
+  }
+}

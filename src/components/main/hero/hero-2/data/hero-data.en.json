@@ -1,0 +1,17 @@
+{
+  "Hero2": {
+    "title": "Real Estate – Real Support",
+    "title2": "A Broker You Can Count On",
+    "description1": "Adnan Al-Deek, ",
+    "descriptionLaval": "Laval",
+    "description2": "'s Trusted Real Estate Broker",
+    "description3": "Dedicated to Guiding You Through Every Step",
+    "imgBackground": "/assets/img/Hero/buy-a-house-in-laval.jpg",
+    "imgRight": "/assets/img/Hero/adnan-al-deek-realtor-laval.png",
+    "button": {
+      "id": "hero-2-btn",
+      "link": "#about-adnan-al-deek",
+      "content": "Discover More"
+    }
+  }
+}

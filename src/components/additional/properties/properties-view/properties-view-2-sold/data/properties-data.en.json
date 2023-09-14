@@ -1,0 +1,128 @@
+{
+  "PropertiesSecondarySold": {
+    "header": "View Properties for Sale",
+    "btn": "Learn More",
+    "properties": {
+      "property1": {
+        "img": "/assets/img/property-1.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      },
+      "property2": {
+        "img": "/assets/img/property-2.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      },
+      "property3": {
+        "img": "/assets/img/property-3.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      },
+      "property4": {
+        "img": "/assets/img/property-4.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      },
+      "property5": {
+        "img": "/assets/img/property-5.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      },
+      "property6": {
+        "img": "/assets/img/property-7.jpg",
+        "price": "$320,000 USD",
+        "details": "View Details",
+        "address": "New York, USA",
+        "info": {
+          "Surface": {
+            "icon": "bx bxs-building-house",
+            "value": "230m"
+          },
+          "Bedrooms": {
+            "icon": "bx bxs-bed",
+            "value": "5"
+          },
+          "Bathrooms": {
+            "icon": "bx bxs-bath",
+            "value": "2"
+          }
+        }
+      }
+    }
+  }
+}

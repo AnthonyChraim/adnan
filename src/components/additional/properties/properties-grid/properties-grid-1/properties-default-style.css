@@ -1,0 +1,366 @@
+/*======================================
+//--//-->   Property-Components
+======================================*/
+
+#properties-grid-1-grid {
+  --property-background-color: var(--main-fill-color);
+  --property-header-color: var(--main-dark-accent-color);
+  --property-sub-header-text-color: var(--main-sub-text-color);
+  --property-breadcrumbs-text-color: var(--main-sub-text-color);
+  --property-main-hyperlink-color: var(--main-accent-color);
+  --property-main-hover-hyperlink-color: var(--main-fill-color);
+  --property-main-card-text-color: var(--main-fill-color);
+  --property-main-card-footer-color: var(--main-dark-accent-color);
+  --property-main-card-footer-header-color: var(--main-fill-color);
+  --property-main-card-footer-description-color: var(--main-fill-color);
+  --property-single-and-grid-header-color: var(--main-ddd-selector-color);
+
+  background-color: var(--property-background-color);
+}
+
+/*------/ Nav Pills  /------*/
+
+.property-grid .link-a {
+  color: var(--property-main-hyperlink-color) !important;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .link-a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .link-a {
+    font-size: 1rem;
+  }
+}
+
+.property-grid .link-a:hover {
+  color: var(--property-main-hover-hyperlink-color) !important;
+  text-decoration: none;
+}
+
+.link-a span {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .link-a span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .link-a span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-box-a {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card-box-a span {
+  line-height: 0;
+}
+
+@media (min-width: 768px) {
+  .grid .card-box-a {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card-box-a {
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-box-a .img-a {
+  transition: 0.8s all ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .card-box-a:hover .img-a {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-box-a .price-a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-a .price-a {
+    font-size: 1rem;
+  }
+}
+
+.card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card-shadow {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-shadow:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* keep like that, can even remove */
+  background: linear-gradient(to bottom, #00000000 0%, #00000033 27%, #000000a6 90%);
+}
+
+@media (min-width: 768px) {
+  .card-box-a:hover .card-overlay-a-content {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
+  .card-box-a:hover .card-overlay-a-content {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 992px) {
+  .card-box-a:hover .card-overlay-a-content {
+    bottom: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-box-a:hover .card-body-a {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-box-a .card-overlay-a-content {
+    bottom: 65px;
+  }
+
+  .card-box-a .card-body-a {
+    padding-bottom: 1rem;
+  }
+}
+
+.card-overlay-a-content {
+  transition: all 0.5s ease-in;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .card-overlay-a-content {
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-overlay-a-content {
+    bottom: 0px;
+  }
+}
+
+.card-header-a {
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-header-a .card-title-a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-header-a .card-title-a {
+    font-size: 2rem;
+  }
+}
+
+.card-header-a .card-title-a a {
+  color: var(--property-main-card-text-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.card-body-a {
+  z-index: 2;
+  transition: all 0.5s ease-in;
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+.card-body-a .price-box {
+  padding-bottom: 0.5rem;
+}
+
+.price-a {
+  /* This is the component's CSS for the Property Card's RENT price Border color. */
+  color: var(--property-main-card-text-color);
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--property-main-card-text-color);
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.card-footer-a {
+  /* This is the component's CSS for the Property Card's bottom footer BG. */
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: var(--property-main-card-footer-color);
+}
+
+.card-info {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+}
+
+.card-info .card-info-title {
+  /* This is the component's CSS for the Property Card's bottom footer text color. */
+  font-size: 1rem;
+  color: var(--property-main-card-footer-header-color);
+}
+
+@media (min-width: 768px) {
+  .card-info .card-info-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-info .card-info-title {
+    font-size: 1rem;
+  }
+}
+
+.card-info li span {
+  color: var(--property-main-card-footer-description-color);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .card-info li span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-info li span {
+    font-size: 1rem;
+  }
+}
+
+/*------/ Property Grid /-----*/
+.property-grid * {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* not sure what this did */
+/* .property-grid .grid-option .custom-select {
+    border-radius: 0;
+    width: 200px;
+    border-color: #00ff00;
+  }
+  
+  .property-grid .grid-option .custom-select:hover,
+  .property-grid .grid-option .custom-select:active,
+  .property-grid .grid-option .custom-select:focus {
+    border-color: #00ff00;
+  }
+  
+  .property-grid .grid-option .custom-select option {
+    border-color: #00ff00;
+  } */
+
+/*------/ Intro Single /------*/
+.intro-single {
+  padding: 25px 0 1.5rem;
+}
+
+/*------/ Property Single /-----*/
+
+.breadcrumb-item a {
+  color: var(--property-breadcrumbs-text-color);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--property-breadcrumbs-text-color) !important;
+}
+
+#properties-grid-1-grid .title-single {
+  color: var(--property-header-color) !important;
+}
+
+.intro-single .title-single-box {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.intro-single .title-single-box {
+  /* This is the component's CSS for the Properties Grid/Single Page's header - Text color and Left Bar. */
+  border-left: 3px solid var(--property-single-and-grid-header-color);
+  color: var(--property-single-and-grid-header-color);
+}
+
+.intro-single .title-single-box .title-single {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+@media (min-width: 768px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.5rem;
+  }
+}
+
+.intro-single .breadcrumb-box {
+  padding: 1rem 0 0 0.5rem;
+}
+
+.intro-single .breadcrumb {
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#properties-grid-1-grid .title-single-box .color-text-a {
+  color: var(--property-sub-header-text-color) !important;
+}
+
+.intro-single .color-text-a {
+  text-decoration: none;
+}
+
+.properties-grid-1-grid-align {
+  text-align: center;
+}

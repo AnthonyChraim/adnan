@@ -1,0 +1,145 @@
+/**
+* Template Name: OPP - Main - v1.0.1
+* Author: OPP
+* License: N/A
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --main-general-color: #414656;
+  --main-background-color: #f9f8ff;
+  --main-fill-color: #ffffff;
+  --main-accent-color: #0275d8;
+  --main-titles-color: #0054a4;
+  --main-dark-accent-color: #222831;
+  --main-sub-text-color: #8490a6;
+  --main-ddd-selector-color: #ddd;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* If you need scroll offset try this magic! */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: var(--main-general-color);
+  /* BACKGROUND-CHANGE */
+  background-color: var(--main-fill-color);
+}
+
+a {
+  /* This is the default <a> property text color. (Currently only used for the "All Properties" link) */
+  color: var(--main-accent-color);
+  text-decoration: none !important;
+}
+
+a:hover {
+  /* This is the default <a> property text color on-hover. (Currently only used for the "All Properties" link) */
+  color: var(--main-dark-accent-color);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+
+h4 {
+  font-weight: 100 !important;
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: var(--main-background-color);
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #5846f9;
+  border-top-color: #e7e4fe;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: var(--main-background-color);
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  /* This is the main CSS used for h2 headers default Text color. */
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #000000;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}

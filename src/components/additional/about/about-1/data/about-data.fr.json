@@ -1,0 +1,27 @@
+{
+  "About1": {
+    "anchor": "a-propos-adnan-al-deek",
+    "title": "En savoir plus sur moi",
+    "description": "L'immobilier est un domaine qui me tient à cœur depuis plus de 25 ans, non seulement en tant que profession mais aussi en tant qu'héritage familial profondément ancré. En grandissant, j'ai passé mes journées à discuter de propriétés, de l'évolution du marché et des façons de trouver la maison de ses rêves. Ce parcours me permet de bien comprendre la dynamique du secteur.",
+    "description2": "Voici comment je peux vous aider:",
+    "img": "/assets/img/About/about-adnan-al-deek-realtor.png",
+    "bulletpoints": {
+      "bp1": {
+        "style": "ri-check-double-line",
+        "content": "En utilisant mes connaissances en finance et en immobilier pour vous assister lors de l'achat ou de la vente.",
+        "link": ""
+      },
+      "bp2": {
+        "style": "ri-check-double-line",
+        "content": "En écoutant attentivement pour mieux comprendre votre histoire et vos objectifs.",
+        "link": ""
+      },
+      "bp3": {
+        "style": "ri-check-double-line",
+        "content": "En me tenant au courant des changements et des règles du marché.",
+        "link": ""
+      }
+    },
+    "conclusion": "Lorsque vous collaborez avec moi, vous n'engagez pas seulement un courtier, mais vous vous associez à un professionnel chevronné qui s'investit véritablement dans la réalisation de vos ambitions en matière d'immobilier. Je vous invite à me contacter pour discuter de vos projets ; ensemble, nous pouvons faire de vos aspirations une réalité."
+  }
+}

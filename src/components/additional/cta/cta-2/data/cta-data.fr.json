@@ -1,0 +1,11 @@
+{
+  "CTA2": {
+    "title": "Un pas de plus vers vos projets d'habitation",
+    "description": "Entrez en contact avec un expert de confiance qui connaît bien le marché.",
+    "img": "/assets/img/CTA/buy-or-sell-houses-laval.jpg",
+    "button": {
+      "text": "Contactez-moi dès maintenant!",
+      "link": "#contact-adnan-al-deek"
+    }
+  }
+}

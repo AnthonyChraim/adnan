@@ -1,0 +1,27 @@
+{
+  "About1": {
+    "anchor": "about-adnan-al-deek",
+    "title": "When Passion Meets Profession",
+    "description": "I bring over 25 years of dedication to the real estate world, not merely as a profession but as a deep-seated family legacy. Growing up, my days were surrounded by discussions of properties, market shifts, and the nuances of finding one's dream home. This background affords me a rich understanding of the industry's dynamics.",
+    "description2": "Here's how I can assist you:",
+    "img": "/assets/img/About/about-adnan-al-deek-realtor.png",
+    "bulletpoints": {
+      "bp1": {
+        "style": "ri-check-double-line",
+        "content": "Using my finance and real estate knowledge to help with buying or selling.",
+        "link": ""
+      },
+      "bp2": {
+        "style": "ri-check-double-line",
+        "content": "Listening closely to know your story and goals.",
+        "link": ""
+      },
+      "bp3": {
+        "style": "ri-check-double-line",
+        "content": "Staying updated on market changes and rules.",
+        "link": ""
+      }
+    },
+    "conclusion": "When you collaborate with me, you're not just engaging a broker but partnering with a seasoned professional genuinely invested in realizing your real estate aspirations. I invite you to reach out and discuss your plans; together, we can turn your goals into reality."
+  }
+}

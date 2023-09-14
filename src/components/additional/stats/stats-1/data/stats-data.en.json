@@ -1,0 +1,31 @@
+{
+  "Stats1": {
+    "header": "Your Property, Our Priority",
+    "cards": {
+      "card1": {
+        "icon": "bx bx-home",
+        "title": "Property Sales",
+        "description": "Leverage our in-depth market knowledge and cutting-edge strategies to sell your property swiftly and profitably. I ensure a smooth and hassle-free transaction every time."
+      },
+      "card2": {
+        "icon": "bx bx-cart-add",
+        "title": "Buying Assistance",
+        "description": "Whether you're a first-time homebuyer or expanding your portfolio, I help you find properties that align with your aspirations and budget. Let's turn your dream home into a reality."
+      },
+      "card3": {
+        "icon": "bx bx-phone-call",
+        "title": "Always at Your Service",
+        "description": "My commitment goes beyond transactions. With outstanding client support, I'm here to assist, advise, and ensure you're informed every step of the way."
+      },
+      "card4": {
+        "icon": "bx bx-map",
+        "title": "Local Expertise",
+        "description": "As an established figure in the community, I provide unparalleled access to various listings and opportunities. Experience real estate service rooted in trust, integrity, and deep community ties."
+      }
+    },
+    "btn": {
+      "text": "Request a price",
+      "link": "https://www.google.com/"
+    }
+  }
+}

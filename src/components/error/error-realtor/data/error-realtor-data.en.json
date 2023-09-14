@@ -1,0 +1,50 @@
+{
+  "ErrorRealtor": {
+    "property": {
+      "header": {
+        "title": "Property Not Found",
+        "description": "This property is no longer available. Browse active properties here!",
+        "button": "Properties",
+        "link": "/properties"
+      },
+      "profile": {
+        "name": "ADNAN AL-DEEK",
+        "description": "When you collaborate with me, you're not just engaging a broker but partnering with a seasoned professional genuinely invested in realizing your real estate aspirations. I invite you to reach out and discuss your plans; together, we can turn your goals into reality.",
+        "image": "/assets/img/About/about-adnan-al-deek-realtor.png",
+        "contact": {
+          "Phone": "(514) 638-8773",
+          "Mobile": "(514) 638-8773",
+          "Email": "adnan.aldeek@remax-quebec.com"
+        },
+        "socials": {
+          "bi bi-facebook": "https://www.facebook.com/adnan.aldeek",
+          "bi bi-instagram": "https://www.instagram.com/adnan_aldeek/",
+          "bi bi-linkedin": "https://www.linkedin.com/in/adnan-al-deek-6359161aa/"
+        }
+      }
+    },
+    "page": {
+      "header": {
+        "title": "Page Not Found",
+        "description": "This page is not available. Check out our home page",
+        "button": "Home",
+        "link": "/"
+      },
+      "profile": {
+        "name": "ADNAN AL-DEEK",
+        "description": "When you collaborate with me, you're not just engaging a broker but partnering with a seasoned professional genuinely invested in realizing your real estate aspirations. I invite you to reach out and discuss your plans; together, we can turn your goals into reality.",
+        "image": "/assets/img/About/about-adnan-al-deek-realtor.png",
+        "contact": {
+          "Phone": "(514) 638-8773",
+          "Mobile": "(514) 638-8773",
+          "Email": "adnan.aldeek@remax-quebec.com"
+        },
+        "socials": {
+          "bi bi-facebook": "https://www.facebook.com/adnan.aldeek",
+          "bi bi-instagram": "https://www.instagram.com/adnan_aldeek/",
+          "bi bi-linkedin": "https://www.linkedin.com/in/adnan-al-deek-6359161aa/"
+        }
+      }
+    }
+  }
+}

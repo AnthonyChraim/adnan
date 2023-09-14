@@ -1,0 +1,43 @@
+{
+  "FAQ2": {
+    "left": {
+      "header": {
+        "l1": "Navigating Home Transactions:",
+        "l2": "Your Questions Answered."
+      },
+      "description": "Unraveling the complexities of selling and buying, one question at a time.",
+      "cards": {
+        "phone": {
+          "title": "Still have questions?",
+          "text": "Call Me",
+          "link": "tel:5146388773"
+        },
+        "chat": {
+          "title": "Still have questions?",
+          "text": "Talk to Me",
+          "link": "mailto:adnan.aldeek@remax-quebec.com"
+        }
+      }
+    },
+    "right": {
+      "questions": {
+        "q1": {
+          "question": "What are the advantages of using a real estate broker?",
+          "answer": "Real estate brokers have in-depth knowledge of the local market and can guide you through the process, negotiate on your behalf, save you time and money, and provide valuable information for making informed decisions."
+        },
+        "q2": {
+          "question": "What are the brokerage fees for buying or selling a property?",
+          "answer": "Buying is free of charge, and for selling we offer a flexible reward system to accommodate each seller's needs."
+        },
+        "q3": {
+          "question": "What are the common mistakes to avoid when buying a home?",
+          "answer": "Avoid overestimating your budget, neglecting inspection, ignoring ownership costs, and failing to consider your future needs."
+        },
+        "q4": {
+          "question": "What are the common mistakes to avoid when selling a house?",
+          "answer": "When selling a home, avoid overpricing, neglecting staging and necessary repairs, and underestimating the importance of marketing. Listen to buyers' comments, plan your next home, and make sure you comply with all legal aspects. Working with a professional real estate broker can help you avoid these mistakes."
+        }
+      }
+    }
+  }
+}

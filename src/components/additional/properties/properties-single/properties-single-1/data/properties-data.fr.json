@@ -1,0 +1,266 @@
+{
+  "PropertiesDefault": {
+    "title": "Propriétées Récentes",
+    "link": {
+      "text": "Toutes les Propriétées",
+      "link": "/properties"
+    },
+    "properties": {
+      "property1": {
+        "address": {
+          "line1": "206 Mount",
+          "line2": "Olive Road Two",
+          "line3": "Laval Qc"
+        },
+        "images": {
+          "img1": "/assets/img/property-1.jpg",
+          "img2": "/assets/img/property-2.jpg",
+          "img3": "/assets/img/property-3.jpg",
+          "img4": "/assets/img/property-4.jpg",
+          "img5": "/assets/img/property-5.jpg",
+          "img6": "/assets/img/property-6.jpg"
+        },
+        "description": {
+          "title": "Description De la Propriété",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Résumé Bref",
+          "quickSummary": {
+            "Property ID": "12345",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Property Type": "House",
+            "Status": "Vente",
+            "Area": "340m",
+            "Beds": "4",
+            "Baths": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Agréments",
+          "amenities": {
+            "a1": "Balcon",
+            "a2": "Cuisine extérieure",
+            "a3": "Cable Télévision",
+            "a4": "Patio",
+            "a5": "Terrain de Tennis",
+            "a6": "Internet",
+            "a7": "Stationnement",
+            "a8": "Jardin",
+            "a9": "Plancher Céramique"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Localisation",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "location | $ 12.000",
+        "priceSingle": "$12,000/month",
+        "seeMore": "Clickez ici pour en savoir plus",
+        "info": {
+          "Superficie": "340m",
+          "Lits": "2",
+          "Bains": "4",
+          "Garages": "1"
+        }
+      },
+      "property2": {
+        "address": {
+          "line1": "59 Avenue",
+          "line2": "Apple Blvd Six",
+          "line3": "Montreal Qc"
+        },
+        "images": {
+          "img1": "/assets/img/property-3.jpg",
+          "img2": "/assets/img/property-2.jpg",
+          "img3": "/assets/img/property-1.jpg",
+          "img4": "/assets/img/property-4.jpg",
+          "img5": "/assets/img/property-5.jpg",
+          "img6": "/assets/img/property-6.jpg"
+        },
+        "description": {
+          "title": "Description De la Propriété",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Résumé Bref",
+          "quickSummary": {
+            "Property ID": "12345",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Type de Propriété": "House",
+            "Status": "Vente",
+            "Superficie": "340m",
+            "Lits": "4",
+            "Bains": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Agréments",
+          "amenities": {
+            "a1": "Balcon",
+            "a2": "Cuisine extérieure",
+            "a3": "Cable Télévision",
+            "a4": "Patio",
+            "a5": "Terrain de Tennis",
+            "a6": "Internet",
+            "a7": "Stationnement",
+            "a8": "Jardin",
+            "a9": "Plancher Céramique"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Localisation",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "Location | $ 12.000",
+        "priceSingle": "$12,000/mois",
+        "seeMore": "Clickez ici pour en savoir plus",
+        "info": {
+          "Superficie": "340m",
+          "Lits": "2",
+          "Bains": "4",
+          "Garages": "1"
+        }
+      },
+      "property3": {
+        "address": {
+          "line1": "882 Hill",
+          "line2": "Raisin Leap One",
+          "line3": "Laval Qc"
+        },
+        "images": {
+          "img1": "/assets/img/property-2.jpg",
+          "img2": "/assets/img/property-1.jpg",
+          "img3": "/assets/img/property-3.jpg",
+          "img4": "/assets/img/property-4.jpg",
+          "img5": "/assets/img/property-5.jpg",
+          "img6": "/assets/img/property-6.jpg"
+        },
+        "description": {
+          "title": "Description De la Propriété",
+          "description": {
+            "p1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+            "p2": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada."
+          }
+        },
+        "summary": {
+          "title": "Résumé Bref",
+          "quickSummary": {
+            "Property ID": "12346",
+            "Location": "206 Mount, Olive Road Two, Laval Qc",
+            "Type de Propriété": "House",
+            "Status": "Vente",
+            "Superficie": "340m",
+            "Lits": "4",
+            "Bains": "2",
+            "Garage": "1"
+          }
+        },
+        "amenity": {
+          "title": "Agréments",
+          "amenities": {
+            "a1": "Balcon",
+            "a2": "Cuisine extérieure",
+            "a3": "Cable Télévision",
+            "a4": "Patio",
+            "a5": "Terrain de Tennis",
+            "a6": "Internet",
+            "a7": "Stationnement",
+            "a8": "Jardin",
+            "a9": "Plancher Céramique"
+          }
+        },
+        "additional": {
+          "video": {
+            "title": "Video",
+            "link": "https://player.vimeo.com/video/73221098",
+            "href": "pills-video",
+            "active": "active"
+          },
+          "floorPlans": {
+            "title": "Plans",
+            "link": "/assets/img/plan2.jpg",
+            "href": "pills-plan",
+            "active": ""
+          },
+          "location": {
+            "title": "Localisation",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3904274629836!2d-73.78176186658179!3d45.54247096940356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92376bd6a32db%3A0x34bd14c19a4a23a2!2s1770%20Rue%20Raoul-Lagac%C3%A9%2C%20Laval%2C%20QC%20H7W%200A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1678747526736!5m2!1sen!2sus",
+            "href": "pills-map",
+            "active": ""
+          }
+        },
+        "price": "Location | $ 12.000",
+        "priceSingle": "$12,000/mois",
+        "seeMore": "Clickez ici pour en savoir plus",
+        "info": {
+          "Superficie": "340m",
+          "Lits": "2",
+          "Bains": "4",
+          "Garages": "1"
+        }
+      }
+    },
+    "grid": {
+      "title": "Nos Belles Propriétées",
+      "description": "Liste de Propriétées",
+      "path": {
+        "Home": "/#",
+        "Liste de Propriétées": "#"
+      },
+
+      "sort": {
+        "All": "0",
+        "New to Old": "1",
+        "For Rent": "2",
+        "For Sale": "3"
+      }
+    },
+    "single": {
+      "path": {
+        "Home": "#",
+        "Properties": "#"
+      }
+    }
+  }
+}

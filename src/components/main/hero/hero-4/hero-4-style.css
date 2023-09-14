@@ -1,0 +1,227 @@
+/*========= Hero-4 =========*/
+#hero-4 {
+  --hero-background-color: var(--main-fill-color);
+  --hero-first-header-text-color: var(--main-dark-accent-color);
+  --hero-second-header-text-color: var(--main-fill-color);
+  --hero-paragraph-text-color: var(--main-fill-color);
+  --hero-main-box-background-color: var(--main-accent-color);
+  --hero-first-btn-background-color: var(--main-dark-accent-color);
+  --hero-first-btn-text-color: var(--main-fill-color);
+  --hero-first-btn-border-color: var(--main-dark-accent-color);
+  --hero-first-btn-hover-background-color: var(--main-fill-color);
+  --hero-first-btn-hover-text-color: var(--main-dark-accent-color);
+  --hero-first-btn-hover-border-color: var(--main-fill-color);
+  --hero-first-btn-shadow-color: var(--main-dark-accent-color);
+  --hero-second-btn-background-color: transparent;
+  --hero-second-btn-text-color: var(--main-fill-color);
+  --hero-second-btn-border-color: var(--main-fill-color);
+  --hero-second-btn-hover-background-color: var(--main-fill-color);
+  --hero-second-btn-hover-text-color: var(--main-dark-accent-color);
+  --hero-second-btn-hover-border-color: var(--main-fill-color);
+  --hero-bottom-text-color: var(--main-sub-text-color);
+  --hero-bottom-icons-color: var(--main-accent-color);
+}
+
+.hero-4-hero-container {
+  padding-top: 3.5rem !important;
+  margin-top: 1rem !important;
+  background-color: var(--hero-background-color);
+}
+
+.hero-4-hero-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0.5rem 0.5rem 0;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.hero-4-hero-div1 {
+  padding-top: 3rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  position: relative !important;
+}
+
+.hero-4-hero-div2 {
+  padding-bottom: 3rem !important;
+  margin-left: 50%;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.hero-4-hero-div3 {
+  padding: 1.5rem !important;
+  overflow: hidden !important;
+  background-color: var(--hero-main-box-background-color);
+  border-color: var(--hero-main-box-background-color);
+}
+
+.hero-4-hero-span1 {
+  background-color: #ffffff0d;
+  height: 100% !important;
+  width: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  position: absolute !important;
+}
+
+.hero-4-hero-div4 {
+  position: relative !important;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.hero-4-hero-p1 {
+  color: var(--hero-first-header-text-color);
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+}
+
+.hero-4-hero-h1 {
+  color: var(--hero-second-header-text-color);
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-4-hero-p2 {
+  margin-bottom: 3rem !important;
+  color: var(--hero-paragraph-text-color);
+}
+
+.hero-4-hero-div5 {
+  flex-direction: row !important;
+  display: flex !important;
+}
+
+.hero-4-hero-btn1 {
+  margin-bottom: 0 !important;
+  margin-right: 1.5rem !important;
+  background-color: var(--hero-first-btn-background-color);
+  color: var(--hero-first-btn-text-color);
+  border-color: var(--hero-first-btn-border-color);
+}
+
+.hero-4-hero-btn1:hover {
+  background-color: var(--hero-first-btn-hover-background-color);
+  color: var(--hero-first-btn-hover-text-color);
+  border-color: var(--hero-first-btn-hover-border-color);
+}
+
+.hero-4-hero-btn2 {
+  background-color: var(--hero-second-btn-background-color);
+  color: var(--hero-second-btn-text-color);
+  border-color: var(--hero-second-btn-border-color);
+}
+
+.hero-4-hero-btn2:hover {
+  background-color: var(--hero-second-btn-hover-background-color);
+  color: var(--hero-second-btn-hover-text-color);
+  border-color: var(--hero-second-btn-hover-border-color);
+}
+
+.hero-4-hero-div6 {
+  margin-top: 3rem !important;
+  padding-top: 3rem !important;
+  margin-left: 75%;
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.hero-4-hero-ul1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  list-style: none;
+}
+
+.hero-4-hero-li1 {
+  padding-bottom: 0.25rem !important;
+  margin-bottom: 0.5rem !important;
+  align-items: center !important;
+  display: flex !important;
+}
+
+.hero-4-hero-li1 .nav-link {
+  color: var(--hero-bottom-text-color);
+}
+
+.hero-4-hero-li1 i {
+  color: var(--hero-bottom-icons-color) !important;
+}
+
+.hero-4-hero-container .shadow-primary {
+  box-shadow: 0 0.5rem 1.125rem -0.5rem var(--hero-first-btn-shadow-color) !important;
+}
+
+.hero-4-hero-img .card {
+  left: -150px;
+}
+
+@media (min-width: 768px) {
+  .hero-4-hero-img:before {
+    width: 60%;
+    height: 200%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-4-hero-img:before {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-4-hero-img {
+    top: -15px;
+  }
+
+  .hero-4-hero-img:before {
+    width: 100%;
+    height: 47%;
+    background-size: cover;
+  }
+
+  .hero-4-hero-div1 {
+    padding-top: 15rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+    margin-left: 0rem;
+    margin-top: -1.8rem;
+    position: relative !important;
+    max-width: 100%;
+  }
+
+  .hero-4-hero-div2 {
+    width: 100%;
+    margin-left: 2.5%;
+    padding-bottom: 0rem !important;
+  }
+
+  .hero-4-hero-div6 {
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 0rem !important;
+    padding-top: 2.5rem !important;
+  }
+
+  .hero-4-hero-img .card {
+    left: -25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-4-hero-div1 {
+    max-width: 100%;
+    padding-left: 1rem !important;
+  }
+}

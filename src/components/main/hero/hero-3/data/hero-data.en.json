@@ -1,0 +1,33 @@
+{
+  "Hero3": {
+    "title": {
+      "firstHeader": "PROFESSIONAL MEDICAL CENTER",
+      "secondHeader": "We Take Care of Your Health",
+      "description": {
+        "text": "Don't have insurance? ",
+        "link": "Click Here!",
+        "href": "https://www.google.com/"
+      }
+    },
+    "card": {
+      "header": "OPP Medical Center",
+      "description": "Our medical center provides a wide range of health care services. We use only advanced technologies to keep your family happy and healthy, without any unexpected surprises. We appreciate your trust greatly. Our patients choose us and our services because they know we are the best.",
+      "button": "About Us",
+      "buttonLink": "https://www.google.com/"
+    },
+    "appointment": {
+      "days": {
+        "Mon - Fri": " 9:00 am - 22:00 pm",
+        "Sat - Sun": " 9:00 am - 22:00 pm"
+      },
+      "button": {
+        "title": "Make an Appointment",
+        "link": "https://www.google.com/"
+      }
+    },
+    "images": {
+      "imageLeft": "/assets/img/hero-img-2.jpg",
+      "imageRight": "/assets/img/hero-img-1.jpg"
+    }
+  }
+}

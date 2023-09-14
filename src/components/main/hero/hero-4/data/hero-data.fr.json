@@ -1,0 +1,33 @@
+{
+  "Hero4": {
+    "img": "/assets/img/hero-financial.jpg",
+    "title": "Propulsez votre entreprise",
+    "header": "Conseil financier intelligent",
+    "description": "Aider nos clients à répondre à leurs besoins financiers depuis plus de 10 ans. Nous vous offrons l'ensemble des services financiers mondiaux.",
+    "btn1": {
+      "text": "Commencer",
+      "link": "https://www.google.com/"
+    },
+    "btn2": {
+      "text": "Qui nous sommes",
+      "link": "https://www.google.com/"
+    },
+    "info": {
+      "location": {
+        "icon": "bx bx-map",
+        "text": "6391 Elgin St. Celina, Delaware 10299",
+        "link": "https://goo.gl/maps/gievQuPsj484ZoFX9"
+      },
+      "email": {
+        "icon": "bx bx-envelope",
+        "text": "email@example.com",
+        "link": "mailto:email@example.com"
+      },
+      "phone": {
+        "icon": "bx bx-phone-call",
+        "text": "(406) 555-0120",
+        "link": "tel:4065550120"
+      }
+    }
+  }
+}

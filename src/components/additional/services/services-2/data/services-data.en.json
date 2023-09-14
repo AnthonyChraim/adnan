@@ -1,0 +1,56 @@
+{
+  "Services2": {
+    "header": "Essential Resources for Homeowners and Buyers",
+    "description": "From selling with ease to making informed purchases, access all the tools and insights you need in one place.",
+    "services": {
+      "service1": {
+        "delay": "100",
+        "name": "Seller's Guide",
+        "img": "assets/img/Tools/Services-1.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek seller's guide",
+        "bulletpoints": {
+          "bp1": "How much selling your home can cost",
+          "bp2": "Setting your home’s sale price",
+          "bp3": "Selling your home with a realtor"
+        },
+        "btn": {
+          "text": "Explore the Seller's Guide",
+          "link": "https://www.canada.ca/en/financial-consumer-agency/services/selling-home.html"
+        }
+      },
+      "service2": {
+        "name": "Buyer's Guide",
+        "delay": "300",
+        "img": "assets/img/Tools/Services-4.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek buyer's guide",
+        "bulletpoints": {
+          "bp1": "Getting preapproved for your home",
+          "bp2": "Finding your home",
+          "bp3": "Paying for your home"
+        },
+        "btn": {
+          "text": "Explore the Buyer's Guide",
+          "link": "https://www.canada.ca/en/financial-consumer-agency/services/buying-home.html"
+        }
+      },
+      "service3": {
+        "delay": "500",
+        "name": "Mortgage Calculator",
+        "img": "assets/img/Tools/Services-5.jpg",
+        "icon": "bx bx-check",
+        "alt": "adnan al-deek mortgage calculator",
+        "bulletpoints": {
+          "bp1": "Accurate payment estimates",
+          "bp2": "Potential savings insights",
+          "bp3": "Determine your eligibility"
+        },
+        "btn": {
+          "text": "Estimate Your Mortgage",
+          "link": "https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MCCalc-CHCalc-eng.aspx"
+        }
+      }
+    }
+  }
+}

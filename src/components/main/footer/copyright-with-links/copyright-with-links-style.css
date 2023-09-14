@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#copyright-with-links {
+  --copyright-background-color: var(--main-dark-accent-color);
+  --copyright-text-color: var(--main-sub-text-color);
+  --copyright-shadow-color: var(--main-general-color);
+  --copyright-link-color: var(--main-accent-color);
+  --copyright-link-hover-text-color: var(--main-fill-color);
+  --copyright-icon-background-color: var(--main-fill-color);
+  --copyright-icon-image-color: var(--main-accent-color);
+  --copyright-icon-hover-background-color: var(--main-accent-color);
+  --copyright-icon-hover-image-color: var(--main-fill-color);
+  --copyright-header-logo-text-color: var(--main-fill-color);
+}
+
+#copyright-with-links {
+  /* This is the component's CSS for the Footer section default BG and text color. */
+  color: var(--copyright-text-color);
+  font-size: 14px;
+  background: var(--copyright-background-color);
+  box-shadow: 0px 2px 15px var(--copyright-shadow-color);
+}
+
+.copyright {
+  padding: 25px 0px 0px 0px;
+  text-align: center;
+}
+
+.copyright span .opp {
+  color: var(--copyright-link-color);
+}
+
+.copyright a {
+  color: var(--copyright-text-color);
+}
+
+.copyright a:hover {
+  color: var(--copyright-link-hover-text-color);
+}
+
+.footer-header-logo {
+  color: var(--copyright-header-logo-text-color);
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  opacity: 0.5;
+}
+
+.footer-header-logo:hover {
+  color: var(--copyright-header-logo-text-color);
+}
+
+a {
+  padding-top: 5px;
+  font-size: 13px;
+  color: var(--copyright-link-color);
+}
+
+#copyright-with-links .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--copyright-icon-background-color);
+  color: var(--copyright-icon-image-color);
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#copyright-with-links .social-links a:hover {
+  background: var(--copyright-icon-hover-background-color);
+  color: var(--copyright-icon-hover-image-color);
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+{
+  "NavigationBar2": {
+    "icon": "/assets/img/NavBar/adnan-al-deek-agent-immobilier-logo.png",
+    "icon2": "/assets/img/NavBar/adnan-al-deek-remax-logo.png",
+    "name": "OnePage Pro",
+    "contacts": {
+      "phone": {
+        "text": "Call Me",
+        "info": "(514) 638-8773",
+        "link": "tel:5146388773",
+        "icon": "bx bx-mobile-alt"
+      },
+      "message": {
+        "text": "Talk to Me",
+        "info": "adnan.aldeek@remax-quebec.com",
+        "link": "mailto:adnan.aldeek@remax-quebec.com",
+        "icon": "bx bx-chat"
+      }
+    },
+    "content": {
+      "Home": "/",
+      "About": "#about-adnan-al-deek",
+      "Services": {
+        "content": {
+          "Sell Property": "#buy-sell-property",
+          "Buy Property": "#buy-sell-property"
+        }
+      },
+      "Tools": {
+        "content": {
+          "Seller's Guide": "#guide-adnan-al-deek",
+          "Buyer's Guide": "#guide-adnan-al-deek",
+          "Mortgage Calculator": "#guide-adnan-al-deek"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,375 @@
+/*======================================
+//--//-->   Property-Components
+======================================*/
+
+#property-single-1 {
+  --property-background-color: var(--main-fill-color);
+  --property-header-text-color: var(--main-dark-accent-color);
+  --property-under-header-text-color: var(--main-sub-text-color);
+  --property-single-underline-color: var(--main-accent-color);
+  --property-swiper-inactive-color: var(--main-ddd-selector-color);
+  --property-swiper-active-color: var(--main-accent-color);
+  --property-main-card-text-color: var(--main-sub-text-color);
+  --property-single-and-grid-header-color: var(--main-ddd-selector-color);
+  --property-single-under-bar-color: var(--main-accent-color);
+  --property-single-paragraphs-header-text-color: var(--main-dark-accent-color);
+  --property-single-paragraphs-text-color: var(--main-general-color);
+  --property-single-nav-items-text-color: var(--main-dark-accent-color);
+  --property-single-dollar-amount-text-color: var(--main-dark-accent-color);
+  --property-single-dollar-icon-color: var(--main-dark-accent-color);
+
+  background-color: var(--property-background-color);
+}
+
+.property-single .title-box-d .title-d {
+  color: var(--property-single-paragraphs-header-text-color);
+}
+
+.property-single .nav-item {
+  color: var(--property-single-nav-items-text-color);
+}
+
+.property-single .property-price .title-c {
+  color: var(--property-single-dollar-amount-text-color);
+}
+
+/*------/ Nav Pills  /------*/
+.property-single .nav-pills-a {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .property-single .property-image {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.property-single .property-description p {
+  color: var(--property-single-paragraphs-text-color);
+  padding-left: 15px;
+}
+
+.property-single .property-description {
+  padding-left: 5px !important;
+}
+
+.property-single .nav-pills-a.nav-pills .nav-link {
+  color: var(--property-header-color);
+  position: relative;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.property-single .nav-pills-a.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
+.property-single .nav-pills-a.nav-pills .nav-link.active:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--property-single-underline-color);
+  z-index: 2;
+}
+
+.carousel-pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*------/ Property Grid /-----*/
+
+/* not sure what this did */
+/* .property-grid .grid-option .custom-select {
+    border-radius: 0;
+    width: 200px;
+    border-color: #00ff00;
+  }
+  
+  .property-grid .grid-option .custom-select:hover,
+  .property-grid .grid-option .custom-select:active,
+  .property-grid .grid-option .custom-select:focus {
+    border-color: #00ff00;
+  }
+  
+  .property-grid .grid-option .custom-select option {
+    border-color: #00ff00;
+  } */
+
+/*------/ Intro Single /------*/
+.intro-single {
+  padding: 25px 0 1.5rem;
+}
+
+.intro-single .title-single-box {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.intro-single .title-single {
+  color: var(--property-header-text-color) !important;
+}
+
+.intro-single .color-text-a {
+  color: var(--property-under-header-text-color) !important;
+}
+
+.intro-single .title-single-box {
+  /* This is the component's CSS for the Properties Grid/Single Page's header - Text color and Left Bar. */
+  border-left: 3px solid var(--property-single-and-grid-header-color);
+  color: var(--property-single-and-grid-header-color);
+}
+
+.intro-single .title-single-box .title-single {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+@media (min-width: 768px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.5rem;
+  }
+}
+
+.intro-single .color-text-a {
+  text-decoration: none;
+}
+
+.property-single .color-text-a {
+  text-decoration: none;
+  color: var(--property-single-paragraphs-text-color);
+}
+
+.no-margin {
+  margin: 0;
+}
+
+/*------/ Property Single /-----*/
+.property-single * {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.property-single .title-box-d {
+  padding-bottom: 1.8rem;
+  margin-bottom: 1rem;
+  position: relative;
+  text-align: left !important;
+}
+
+.property-single .title-box-d .title-d {
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline-block; /* Add this line to make the title an inline block */
+  padding-right: 0.5rem; /* Add some padding to the right of the title */
+}
+
+.property-single .title-box-d .title-d:after {
+  /* This is the component's CSS for the Properties Grid/Single Page's header - Text color and Bottom Bar. */
+  content: "";
+  display: block; /* Change this line to make the black bar a block element */
+  width: 70px;
+  height: 4px;
+  color: var(--property-single-under-bar-color);
+  background-color: var(--property-single-under-bar-color);
+  margin-left: -0.5rem; /* Use negative margin to move the black bar to the left */
+  text-indent: 0.5rem; /* Use text-indent to move the text back to the right */
+  position: absolute;
+  bottom: 20px;
+}
+
+.property-single .section-t4 {
+  padding-top: 4rem;
+}
+
+@media (max-width: 767px) {
+  .property-single .section-t4 {
+    padding-top: 2rem;
+  }
+}
+
+.property-single .section-t3 {
+  padding-top: 3rem;
+}
+
+.property-single .list-a ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.property-single .list-a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2;
+  padding: 0;
+  list-style: none;
+}
+
+.property-single .list-a li {
+  position: relative;
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+
+@media (min-width: 992px) {
+  .property-single .list-a li {
+    width: 33.333%;
+  }
+}
+
+.property-price {
+  margin: 0 auto;
+}
+
+.property-price .card-header-c {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.property-price .card-box-ico {
+  padding: 1rem 3rem 1rem 2.5rem;
+}
+
+.property-price .card-box-ico span {
+  color: var(--property-single-dollar-icon-color);
+}
+
+@media (min-width: 992px) {
+  .property-price .card-box-ico span {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .property-price .card-box-ico span {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .property-price .card-box-ico span {
+    font-size: 1.5rem;
+  }
+}
+
+.property-price .title-c {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-left: -40px;
+}
+
+@media (min-width: 768px) {
+  .property-price .title-c {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 300px) {
+  .property-price .title-c {
+  }
+}
+
+@media (min-width: 992px) {
+  .property-price .title-c {
+    font-size: 2.5rem;
+  }
+}
+
+.property-single .summary-list {
+  /* This is the component's CSS for the Properties Single Page's Summary text color - Left Side text. */
+  padding-right: 1rem;
+  color: var(--property-single-paragraphs-text-color);
+}
+
+.property-single .summary-list .list {
+  padding: 0;
+  line-height: 2;
+}
+
+.property-single .summary-list .list span {
+  /* This is the component's CSS for the Properties Single Page's Summary text color - Right Side text. */
+  color: var(--property-single-paragraphs-text-color);
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff70;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.overlay:hover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff99;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.overlay-text {
+  color: #000;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.overlay-icon {
+  color: #fff;
+  font-size: 16px;
+}
+
+.property-single-1-title-address {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.property-single-1-title-price {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.property-single-1-title-address,
+.property-single-1-title-price {
+  flex-basis: 50%;
+  margin-bottom: 1rem;
+  margin-top: auto;
+}
+
+@media (max-width: 500px) {
+  .bi-cash::before {
+    display: none;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .property-single-1-title-price {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .property-single-title-price-mobile {
+    display: none;
+  }
+}
+
+.property-single-title-price-mobile {
+}

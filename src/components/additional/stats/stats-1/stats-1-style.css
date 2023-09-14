@@ -1,0 +1,207 @@
+#stats-1 {
+  --stats-background-color: var(--main-fill-color);
+  --stats-header-text-color: var(--main-accent-color);
+  --stats-elements-background-color: var(--main-background-color);
+  --stats-elements-border-color: var(--main-background-color);
+  --stats-elements-icons-color: var(--main-accent-color);
+  --stats-elements-icons-hover-color: var(--main-dark-accent-color);
+  --stats-elements-header-text-color: var(--main-general-color);
+  --stats-elements-paragraph-color: var(--main-sub-text-color);
+  --stats-btn-background-color: var(--main-accent-color);
+  --stats-btn-text-color: var(--main-fill-color);
+  --stats-btn-border-color: var(--main-accent-color);
+  --stats-btn-hover-background-color: var(--main-fill-color);
+  --stats-btn-hover-text-color: var(--main-accent-color);
+  --stats-btn-hover-border-color: var(--main-accent-color);
+  --stats-btn-shadow-color: var(--main-accent-color);
+  --stats-title-color: var(--main-titles-color);
+}
+
+.stats-1-container {
+  /* margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; */
+  background-color: var(--stats-background-color);
+  max-width: none !important;
+}
+
+@media (min-width: 992px) {
+  .stats-1-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .stats-1-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 1400px) {
+  .stats-1-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.stats-1-h2 {
+  padding-top: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+  font-size: 2.5rem;
+  color: var(--stats-title-color);
+}
+
+.stats-1-slider {
+  margin-right: -0.5rem !important;
+  margin-left: -0.5rem !important;
+}
+
+.stats-1-container .swiper-slide {
+  width: 322px;
+  margin-right: 8px;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  height: auto !important;
+}
+
+.stats-1-div1 {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
+  height: 100% !important;
+}
+
+.stats-1-i1 {
+  color: var(--stats-elements-icons-color);
+  font-weight: 400 !important;
+}
+
+.stats-1-h3 {
+  line-height: 1.4;
+  padding-bottom: 0.25rem !important;
+  padding-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1.25rem;
+  color: var(--stats-elements-header-text-color);
+}
+
+.stats-1-p1 {
+  margin-bottom: 0 !important;
+  color: var(--stats-elements-paragraph-color);
+}
+
+.stats-1-div2 {
+  padding-top: 1.5rem !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.stats-1-container .shadow-primary {
+  box-shadow: 0 0.5rem 1.125rem -0.5rem var(--stats-btn-shadow-color) !important;
+}
+
+.stats-1-container .card-hover:not(.bg-transparent) {
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.stats-1-container .card-hover:not(.bg-transparent):hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.275rem 0.75rem -0.0625rem rgba(11, 15, 25, 0.06), 0 0.125rem 0.4rem -0.0625rem rgba(11, 15, 25, 0.03);
+}
+
+.stats-1-container .card-hover:not(.bg-transparent).shadow-sm:hover {
+  box-shadow: 0 0.275rem 1.25rem rgba(11, 15, 25, 0.05), 0 0.25rem 0.5625rem rgba(11, 15, 25, 0.03) !important;
+}
+
+.stats-1-container .card-hover:not(.bg-transparent).shadow:hover {
+  box-shadow: 0 0.3rem 1.525rem -0.375rem rgba(11, 15, 25, 0.1), 0 0.25rem 0.8125rem -0.125rem rgba(11, 15, 25, 0.06) !important;
+}
+
+.stats-1-container .card-hover:not(.bg-transparent).border-primary:hover {
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(99, 102, 241, 0.9) !important;
+}
+
+.stats-1-container .card-hover {
+  --bs-card-icon-hover-color: var(--stats-elements-icons-hover-color);
+}
+
+.stats-1-container .card-hover .card-img-overlay {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 5;
+}
+
+.stats-1-container .card-hover .card-icon {
+  transition: color 0.3s ease-in-out;
+}
+
+.stats-1-container .card-hover:hover .card-icon {
+  color: var(--bs-card-icon-hover-color) !important;
+}
+
+.stats-1-container .card-hover:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.stats-1-container .card-hover-primary {
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.stats-1-container .card-hover-primary.shadow-sm:hover,
+.card-hover-primary.shadow:hover,
+.card-hover-primary:hover {
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(99, 102, 241, 0.9) !important;
+}
+
+.stats-1-container .card-body {
+  padding: 1.5rem 1.5rem;
+}
+
+.stats-1-container .card {
+  --bs-card-spacer-y: 1.5rem;
+  --bs-card-spacer-x: 1.5rem;
+  --bs-card-title-spacer-y: 0.75rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: #e2e5f1;
+  --bs-card-border-radius: 0.5rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.5rem - 1px);
+  --bs-card-cap-padding-y: 1.125rem;
+  --bs-card-cap-padding-x: 1.5rem;
+  --bs-card-cap-bg: transparent;
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: var(--stats-elements-background-color);
+  --bs-card-img-overlay-padding: 1.5rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--stats-elements-border-color);
+  border-radius: var(--bs-card-border-radius);
+  box-shadow: var(--bs-card-box-shadow);
+}
+
+#stats-1 .swiper-pagination {
+  position: relative;
+}
+
+.stats-1-container .btn-primary {
+  background-color: var(--stats-btn-background-color);
+  color: var(--stats-btn-text-color);
+  border-color: var(--stats-btn-border-color);
+}
+
+.stats-1-container .btn-primary:hover {
+  background-color: var(--stats-btn-hover-background-color);
+  color: var(--stats-btn-hover-text-color);
+  border-color: var(--stats-btn-hover-border-color);
+}

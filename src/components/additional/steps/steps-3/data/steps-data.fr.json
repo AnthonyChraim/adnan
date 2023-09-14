@@ -1,0 +1,79 @@
+{
+  "Steps3": {
+    "anchor": "acheter-vendre-propriété",
+    "option1": {
+      "title": "Acheter",
+      "header": "Les étapes d'une vente réussie",
+      "description": "Le processus de vente dans l'immobilier peut varier en fonction de votre emplacement, de la propriété spécifique et des circonstances individuelles",
+      "steps": {
+        "step1": {
+          "number": "1",
+          "delay": "100",
+          "title": "Consultation",
+          "description": "Comprendre les besoins et le budget du client."
+        },
+        "step2": {
+          "number": "2",
+          "delay": "300",
+          "title": "Étude de marché",
+          "description": "Trouver des propriétés appropriées."
+        },
+        "step3": {
+          "number": "3",
+          "delay": "500",
+          "title": "Visites",
+          "description": "Organiser les visites de propriétées."
+        },
+        "step4": {
+          "number": "4",
+          "delay": "700",
+          "title": "Offre et négociation",
+          "description": "Aider à somettre des offres compétitives."
+        },
+        "step5": {
+          "number": "5",
+          "delay": "900",
+          "title": "Gestion des transactions",
+          "description": "Superviser le processus jusqu'à la clôture."
+        }
+      }
+    },
+    "option2": {
+      "title": "Vendre",
+      "header": "Les étapes pour réussir l'achat de la maison de vos rêves",
+      "description": "Le processus d'achat dans l'immobilier peut varier en fonction de votre emplacement, de la propriété spécifique et des circonstances individuelles.",
+      "steps": {
+        "step1": {
+          "number": "1",
+          "delay": "100",
+          "title": "Consultation de l'annonce",
+          "description": "Discuter des objectifs du client et fixer un prix de vente compétitif."
+        },
+        "step2": {
+          "number": "2",
+          "delay": "300",
+          "title": "Stratégie de marketing",
+          "description": "Élaborer un plan de marketing pour attirer des acheteurs potentiels."
+        },
+        "step3": {
+          "number": "3",
+          "delay": "500",
+          "title": "Exposition et portes ouvertes",
+          "description": "Organiser des visites de la propriété et des journées portes ouvertes pour présenter le logement."
+        },
+        "step4": {
+          "number": "4",
+          "delay": "700",
+          "title": "Négocier les offres",
+          "description": "Aider à négocier les offres et les conditions avec les acheteurs potentiels."
+        },
+        "step5": {
+          "number": "5",
+          "delay": "900",
+          "title": "Gestion des clôtures",
+          "description": "Guider le client tout au long du processus de clôture et veiller à ce que la transaction se déroule sans encombre."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "Steps3": {
+    "anchor": "buy-sell-property",
+    "option1": {
+      "title": "Buy",
+      "header": "Steps to Successfully Buying Your Home",
+      "description": "The process of buying real estate can vary depending on your location, the specific property and your individual circumstances.",
+      "steps": {
+        "step1": {
+          "number": "1",
+          "delay": "100",
+          "title": "Consultation",
+          "description": "Understand the client's needs and budget."
+        },
+        "step2": {
+          "number": "2",
+          "delay": "300",
+          "title": "Market Research",
+          "description": "Find suitable properties."
+        },
+        "step3": {
+          "number": "3",
+          "delay": "500",
+          "title": "Showings",
+          "description": "Arrange property viewings."
+        },
+        "step4": {
+          "number": "4",
+          "delay": "700",
+          "title": "Offer and Negotiation",
+          "description": "Assist in making competitive offers."
+        },
+        "step5": {
+          "number": "5",
+          "delay": "900",
+          "title": "Transaction Management",
+          "description": " Oversee the process to closing."
+        }
+      }
+    },
+    "option2": {
+      "title": "Sell",
+      "header": "Steps to Successfully Selling Your Home",
+      "description": "The process of selling real estate can vary depending on your location, the specific property and your individual circumstances.",
+
+      "steps": {
+        "step1": {
+          "number": "1",
+          "delay": "100",
+          "title": "Listing Consultation",
+          "description": "Discuss the client's goals and set a competitive listing price."
+        },
+        "step2": {
+          "number": "2",
+          "delay": "300",
+          "title": "Marketing Strategy",
+          "description": "Develop a marketing plan to attract potential buyers."
+        },
+        "step3": {
+          "number": "3",
+          "delay": "500",
+          "title": "Showings and Open Houses",
+          "description": "Arrange property viewings and open houses to showcase the home."
+        },
+        "step4": {
+          "number": "4",
+          "delay": "700",
+          "title": "Negotiate Offers",
+          "description": "Assist in negotiating offers and terms with potential buyers."
+        },
+        "step5": {
+          "number": "5",
+          "delay": "900",
+          "title": "Closing Management",
+          "description": "Guide the client through the closing process and ensure a smooth transaction."
+        }
+      }
+    }
+  }
+}

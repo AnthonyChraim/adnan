@@ -1,0 +1,40 @@
+{
+  "Contact2": {
+    "header": "Entrez en contact",
+    "description": "Vous débutez votre parcours immobilier ou vous avez des questions?",
+    "description2": "Envoyez-nous un message; nous sommes là pour vous aider à réaliser vos ambitions immobilières.",
+    "emailjs": {
+      "serviceId": "service_pa3nxqn",
+      "templateId": "template_e553shy",
+      "publicKey": "KHeIWFbqbPAm_-1Cf"
+    },
+    "form": {
+      "firstName": {
+        "title": "Prénom",
+        "placeholder": "",
+        "invalidFeedback": "Veuillez fournir un prénom valide!"
+      },
+      "lastName": {
+        "title": "Nom",
+        "placeholder": "",
+        "invalidFeedback": "Veuillez fournir un nom de famille valide!"
+      },
+      "email": {
+        "title": "Adresse e-mail",
+        "placeholder": "",
+        "invalidFeedback": "Veuillez fournir une adresse e-mail valide!"
+      },
+      "phone": {
+        "title": "Numéro de téléphone",
+        "placeholder": "(123) 456-7890",
+        "invalidFeedback": "Veuillez fournir un numéro de téléphone valide!"
+      },
+      "message": {
+        "title": "Message",
+        "placeholder": "",
+        "invalidFeedback": "Veuillez saisir votre message!"
+      }
+    },
+    "btn": "Soumettre"
+  }
+}

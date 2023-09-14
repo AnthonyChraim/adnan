@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Back To Top button
+--------------------------------------------------------------*/
+
+#back-to-top {
+  --back-to-top-background-color: var(--main-accent-color);
+  --back-to-top-arrow-color: var(--main-fill-color);
+  --back-to-top-hover-background-color: var(--main-dark-accent-color);
+  --back-to-top-hover-arrow-color: var(--main-fill-color);
+}
+
+.back-to-top {
+  /* This is the component's main CSS for the default BG. */
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: var(--back-to-top-background-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  /* This is the component's CSS for the default arrow icon color. */
+  font-size: 28px;
+  color: var(--back-to-top-arrow-color);
+  line-height: 0;
+  padding-bottom: 3px;
+}
+
+.back-to-top:hover {
+  /* This is the component's CSS for the BG and arrow icon colors on-hover. */
+  background: var(--back-to-top-hover-background-color);
+  color: var(--back-to-top-hover-arrow-color);
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
